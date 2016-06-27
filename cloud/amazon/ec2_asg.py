@@ -28,6 +28,7 @@ options:
       - register or deregister the instance
     required: true
     choices: ['present', 'absent']
+    default: present
   name:
     description:
       - Unique name for group to be created or deleted
