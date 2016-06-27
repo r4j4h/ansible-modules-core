@@ -26,7 +26,7 @@ options:
   state:
     description:
       - register or deregister the instance
-    required: true
+    required: false
     choices: ['present', 'absent']
     default: present
   name:
