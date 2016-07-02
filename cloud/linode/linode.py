@@ -72,6 +72,7 @@ options:
   distribution:
     description:
      - distribution to use for the instance (Linode Distribution)
+     - See Linode's API docs regarding distribution ids: U(https://www.linode.com/api/utility/avail.distributions)
     default: null
     type: integer
   datacenter:
